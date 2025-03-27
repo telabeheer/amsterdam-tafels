@@ -118,7 +118,15 @@ transip nameservers: transIP NS:
 ## Spoofing
 “Spoofing is het vervalsen van digitale identiteit of herkomst in een netwerkverkeer- of communicatieproces.”
 
+##  CI/CD (Continuous Integration / Continuous Deployment) 
+voor statische sites: bij elke push naar een ingestelde branch wordt automatisch de site gedeployed.
+Wat gebeurt er?
+Elke keer als je iets pusht naar main, wordt index.html (en andere files) automatisch gepubliceerd via GitHub Pages.
+index.html staat in de root van de repo
+GitHub Pages is ingesteld op main branch en root folder
+
 # TO DO
+##  CI/CD (Continuous Integration / Continuous Deployment) 
 ## SEO Search Engine Optimization
 ## DNS email
 ```
@@ -133,3 +141,6 @@ git add
 git commit
 ```
 
+
+SEO audit	Lighthouse, Ahrefs, SEMrush
+Security audit	Nessus, OpenVAS, SSL Labs, Nikto
